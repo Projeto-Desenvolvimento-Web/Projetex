@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+#word-display {
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+#guesses {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#hangman-image {
+    margin-top: 20px;
+}
+
+#guess-form {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #0074D9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
