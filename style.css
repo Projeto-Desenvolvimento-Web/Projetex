@@ -1,39 +1,115 @@
-body {
-    font-family: Arial, sans-serif;
+html{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    background-color: #ffe5f2;
+}
+
+.titulo{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.descricao{
+    font-family: 'Lexend';
+    font-weight: 200;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
-h1 {
-    font-size: 24px;
+#entrada{
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 40px;
+    padding-left: 10px;
 }
 
-#word-display {
-    font-size: 32px;
-    margin: 20px 0;
-}
-
-#guesses {
-    font-size: 20px;
-    margin: 10px 0;
-}
-
-#hangman-image {
-    margin-top: 20px;
-}
-
-#guess-form {
-    margin-top: 20px;
-}
-
-button {
-    background-color: #0074D9;
+#botao{
+    background-color: black;
     color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Lexend';
+    font-size: 25px;
+    font-weight: 300;
 }
 
-button:hover {
-    background-color: #0056b3;
+#botao:hover{
+    background-color: gray;
 }
 
+.incentivo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lexend';
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 15px 30px;
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 50px;
+}
+
+.palavras{
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;;
+}
+
+
+#inseridas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 25px;
+}
+
+
+#listaPalavras{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lexend';
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+
+.res{
+    display: none;
+}
+
+input{
+  font-family: 'Lexend';
+  font-size: 20px;
+}
