@@ -10,9 +10,11 @@
 </head>
 <body>
     <h1 class="titulo">WORD WORLD</h1>
-    <h2 class="descricao">quantas palavras em inglês você consegue lembrar em 1 minuto?</h2>
+    <h2 class="segundos"> CRONOMETRO </h2>
+    <h3 id="tempo">60</h3>
+    <h4 class="descricao">quantas palavras em inglês você consegue lembrar em 1 minuto?</h4>
     <input id="entrada" type="text" name="entrada" size="40">
-    <input id="botao" type="submit" value="enviar" onclick="comparar()">
+    <input id="botao" type="submit" value="enviar" onclick="contagem()" ondblclick="comparar()" >
     <resultado id="res" class="res">
         <div class="resultado">
             <h3 id="incentivo" class="incentivo">...</h3>

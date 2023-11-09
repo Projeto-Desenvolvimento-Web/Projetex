@@ -113,3 +113,34 @@ input{
   font-family: 'Lexend';
   font-size: 20px;
 }
+
+#tempo{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 60px;
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 40px;
+    padding-left: 10px;
+}
+
+.segundos{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 60px;
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 40px;
+    padding-left: 10px;
+}
+

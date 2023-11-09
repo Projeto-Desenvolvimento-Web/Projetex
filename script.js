@@ -19,3 +19,26 @@ botao.addEventListener("click", () => { // clica no botão e faz isso
       }
     });
 });
+
+document.getElementById("botao").addEventListener("input", function() {
+    if (!tempo) {
+      contagem();
+    }
+  });
+
+function contagem(){
+    tempo = setInterval (function (){
+        var cronometro = document.getElementById('tempo').innerHTML;
+        var soma = parseInt(cronometro) - 1;
+        if (soma === 0){
+            document.getElementById('tempo').innerHTML = "Tempo esgotado";
+            pararcontagem()
+        }else{
+            document.getElementById('tempo').innerHTML = soma
+        }
+    }, 2000);
+}
+
+function pararcontagem(){
+    clearInterval(tempo);
+}
