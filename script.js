@@ -10,6 +10,12 @@ const listaErradas = [];
 const botao = document.getElementById("botao");
 let tempo;
 
+// Adiciona o input ao corpo do documento
+const input = document.createElement('input');
+input.type = 'text';
+input.name = 'entrada';
+input.size = 40;
+
 botao.addEventListener("click", () => {
   res.classList.remove("res");
   let input = document.getElementById("entrada").value;
@@ -70,3 +76,5 @@ function contagem() {
 function pararcontagem() {
   clearInterval(tempo);
 }
+
+// Desenha algo no canvas (apenas como exemplo)
