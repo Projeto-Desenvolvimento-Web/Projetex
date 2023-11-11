@@ -1,38 +1,46 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WORD WORLD</title>
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;600;900&display=swap" rel="stylesheet">
-
 </head>
-<body>
-    <h1 class="titulo">WORD WORLD</h1>
-    <h4 class="descricao">quantas palavras em inglês você consegue lembrar em 1 minuto?</h4>
-    
-    <input id="entrada" type="text" name="entrada" size="40">
-    <input id="botao" type="submit" value="enviar" onclick="contagem()" ondblclick="comparar()" >
-    <resultado id="res" class="res">
-        <div class="resultado">
-            <h3 id="incentivo" class="incentivo">...</h3>
-            <h3 class="segundos"> CRONOMETRO </h3>
-            <h3 id="tempo">60</h3>
-            <h3>pontuação</h3>
-            <h3 id="score">0</h3>
-        </div>
-        <div class="palavras">
-            <div class="div-certas">
-                <p class="palavrasCertas">palavras certas já inseridas:</p>
-                <p id="certas" class="certas">...</p>
-            </div>
-            <div class="div-erradas">
-                <p class="palavrasErradas">palavras erradas já inseridas:</p>
-                <p id="erradas" class="erradas">...</p>
-            </div>
-        </div>
-    </resultado>
 
-<script src="script.js" text="stylesheet"></script>
+<body>
+    <div id="container">
+        <canvas id="myCanvas" width="800" height="600"></canvas>
+
+        <div id="overlay">
+            <h1 class="titulo">WORD WORLD</h1>
+            <h4 class="descricao">Quantas palavras em inglês você consegue lembrar em 1 minuto?</h4>
+            <input id="entrada" type="text" name="entrada" size="40">
+            <input id="botao" type="submit" value="enviar" onclick="contagem()" ondblclick="comparar()">
+            <div id="res" class="res">
+                <div class="resultado">
+                    <h3 id="incentivo" class="incentivo">...</h3>
+                    <h3 class="segundos">CRONÔMETRO</h3>
+                    <h3 id="tempo">60</h3>
+                    <h3>Pontuação</h3>
+                    <h3 id="score">0</h3>
+                </div>
+                <div class="palavras">
+                    <div class="div-certas">
+                        <p class="palavrasCertas">Palavras certas já inseridas:</p>
+                        <p id="certas" class="certas">...</p>
+                    </div>
+                    <div class="div-erradas">
+                        <p class="palavrasErradas">Palavras erradas já inseridas:</p>
+                        <p id="erradas" class="erradas">...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" text="stylesheet"></script>
 </body>
+
 </html>
