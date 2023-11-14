@@ -1,0 +1,229 @@
+#container{
+    position: relative;
+}
+
+.titulo{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    padding: center;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 2;
+    width: 70%;
+    background-color: #e63946;
+    background-position: 20px;
+}
+
+.descricao{
+    font-family: 'Lexend';
+    font-weight: 200;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    padding: 20px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    z-index: 1;
+    flex-wrap: wrap;
+}
+
+#entrada{
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 40px;
+    padding-left: 10px;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    z-index: 2;
+    flex-wrap: wrap;
+}
+
+#botao{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Lexend';
+    font-size: 25px;
+    font-weight: 300;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    z-index: 2;
+    flex-wrap: wrap;
+}
+
+#botao:hover{
+    background-color: gray;
+}
+
+.incentivo{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 90%;
+    z-index: 1;
+    width: 100%;
+
+
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+   
+flex-direction: row;
+    
+   
+width: 100%;
+    font-family: 'Lexend';
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 20px;
+    position: absolute;
+    top: 90%;
+    left: 62%;
+    transform: translate(-50%, -0%);
+    z-index: 1;
+    
+   
+Incorrect property: flex-wrap is not applicable to position:absolute elements
+    flex-wrap: wrap; */
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 50px;
+    flex-wrap: wrap;
+
+}
+
+.palavras{
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    position: absolute;
+    top: 180%;
+    left: 40%;
+    transform: translate(-50%, -0%);
+    z-index: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60%;
+    padding-left: 270px;
+}
+
+.pontuacao{
+    position: absolute;
+    font-size: 30px;
+    top: 160%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    z-index: 1;
+    flex-wrap: wrap;
+}
+
+#score{
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    z-index: 1;
+    font-size: 25px;
+    flex-wrap: wrap;
+}
+
+.res{
+    display: none;
+}
+
+input{
+  font-family: 'Lexend';
+  font-size: 20px;
+}
+
+.segundos{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 40px;
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 40px;
+    padding-left: 10px;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    z-index: 1;
+    flex-wrap: wrap;
+}
+
+#tempo{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 60px;
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 40px;
+    padding-left: 10px;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    z-index: 1;
+    flex-wrap: wrap;
+}
+
+#myCanvas{
+    border: solid 10px black;
+    height: 1100px;
+    width: 800px;
+    position: relative;
+    top: 50%;
+    left: 75px;
+    z-index: 0;
+    text-align: center;
+}
+
